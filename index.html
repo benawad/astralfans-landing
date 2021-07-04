@@ -7,12 +7,25 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .main {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .main > div {
       margin-top: 16px;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+    }
+    svg {
+      max-width: 100%;
     }
   </style>
   <head>
@@ -60,8 +73,8 @@
   <body>
     <div class="main">
       <svg
-        width="368"
-        height="60"
+        width="552"
+        height="90"
         viewBox="0 0 368 60"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -140,15 +153,17 @@
         />
       </svg>
       <!-- <div>Your gated community</div> -->
-      <div>
-        business inquiries:
-        <a href="mailto:golf@astralfans.com">golf@astralfans.com</a>
+      <div class="row">
+        <div>
+          <a href="mailto:golf@astralfans.com">golf@astralfans.com</a>
+        </div>
+        <span>・</span>
+        <a
+          href="https://www.youtube.com/playlist?list=PLN3n1USn4xllWms9a2CSML_pMl6HM8eZF"
+        >
+          YouTube Series
+        </a>
       </div>
-      <!-- <a
-        href="https://www.youtube.com/playlist?list=PLN3n1USn4xllWms9a2CSML_pMl6HM8eZF"
-      >
-        AstralLog YouTube series
-      </a> -->
     </div>
   </body>
 </html>
